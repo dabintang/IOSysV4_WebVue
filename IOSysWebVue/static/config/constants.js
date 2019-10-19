@@ -1,6 +1,6 @@
 const CST = {
   API: {
-    Base: 'http://127.0.0.1:10001', //基地址
+    Base: 'http://127.0.0.1:20001', //基地址
     Acc: {
       Login: '/api/Account/Login', //登录
       GetCurrentUser: '/api/Account/GetCurrentUser', //获取当前用户信息
