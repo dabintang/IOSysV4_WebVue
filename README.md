@@ -9,8 +9,6 @@
 用户名：user  
 密码：password  
 
-部署方法：（后续补充）  
-
 ## V4版本的系统主要由以下几个项目组成：  
 接口项目：https://github.com/dabintang/IOSysV4_NetCore   
 pc端web ：即本项目  
