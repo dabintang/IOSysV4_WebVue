@@ -16,7 +16,8 @@
             <AASelect v-model="form.amountAccountID"></AASelect>
           </el-form-item>
           <el-form-item label="金额" prop="amount">
-            <el-input v-model.number="form.amount" placeholder="请输入金额"></el-input>
+            <!-- <el-input v-model.number="form.amount" placeholder="请输入金额"></el-input> -->
+            <el-input-number v-model="form.amount" :precision="2" :step="0.01" :controls="false" placeholder="请输入金额"></el-input-number>
           </el-form-item>
           <el-form-item label="备注" prop="remark">
             <el-input type="textarea" v-model="form.remark" :rows="4" maxlength="1024" placeholder="请输入备注"></el-input>

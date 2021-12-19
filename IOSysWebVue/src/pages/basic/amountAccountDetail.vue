@@ -10,7 +10,8 @@
             <el-input v-model="form.name" maxlength="64" placeholder="请输入名称"></el-input>
           </el-form-item>
           <el-form-item label="金额" prop="amount">
-            <el-input v-model.number="form.amount" placeholder="请输入金额" :disabled="this.form.id==0?false:true"></el-input>
+            <!-- <el-input v-model.number="form.amount" placeholder="请输入金额" :disabled="this.form.id==0?false:true"></el-input> -->
+            <el-input-number v-model="form.amount" :precision="2" :step="0.01" :controls="false" placeholder="请输入金额" :disabled="this.form.id==0?false:true"></el-input-number>
           </el-form-item>
           <el-form-item label="是否可用" prop="isActive">
             <el-switch v-model="form.isActive"></el-switch>

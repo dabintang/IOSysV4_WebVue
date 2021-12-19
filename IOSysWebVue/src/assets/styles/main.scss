@@ -104,3 +104,7 @@ a {
   float: right;
   padding-right: 30px;
 }
+
+.el-input-number.el-input-number.is-without-controls .el-input__inner {
+  text-align: right;
+}
